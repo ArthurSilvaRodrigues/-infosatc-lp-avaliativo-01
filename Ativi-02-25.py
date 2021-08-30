@@ -1,4 +1,4 @@
-a = float(input('Digite um valor em acres: '))
+m = float(input('Digite um valor em m²: '))
 print('Os valores se igualam: ' +
-    '\nAcres: {}'.format(a) + 
-    '\nm²: {:.2f}'.format(a*4048.58))
+    '\nm²: {}'.format(m) + 
+    '\nHectares: {:.2f}'.format(m*0.0001))
